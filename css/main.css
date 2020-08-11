@@ -1,0 +1,29 @@
+
+figure{
+	    padding: 1rem;
+    border: 1px black;
+        border-radius: 12px;
+    box-shadow: 0 0 10px -6px;
+    }
+
+    figcaption li{
+	list-style-type: none;
+}
+
+@media (min-width: 768px) { 
+	figure > img{
+		width: 330px;
+		height: 400px!important;
+		object-fit: cover;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	figure > img{
+		width: 390px;
+		height: 390px!important;
+		object-fit: cover;
+	}
+
+}
